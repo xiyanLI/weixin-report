@@ -1,0 +1,111 @@
+<!--index.wxml-->
+<view class="items">
+   <view class="item">
+    <view>
+     <image src="../images/1.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">李希彦<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733024</view>
+     </view>
+    </view>
+  <view class="line"></view>
+  <view class="item">
+    <view>
+     <image src="../images/2.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">陈思学<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733037</view>
+     </view>
+    </view>
+  <view class="line"></view>
+  <view class="item">
+    <view>
+     <image src="../images/3.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">柴玉凤<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733020</view>
+     </view>
+    </view>
+  <view class="line"></view>
+  <view class="item">
+    <view>
+     <image src="../images/4.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">吕星<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733027</view>
+     </view>
+    </view>
+  <view class="line"></view>
+  <view class="item">
+    <view>
+     <image src="../images/5.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">陈億庭<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733045</view>
+     </view>
+    </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+     <image src="../images/6.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">殷志敏<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733019</view>
+     </view>
+    </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+     <image src="../images/7.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">瞿怡慧<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733014</view>
+     </view>
+    </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+     <image src="../images/8.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">秦启纯<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733021</view>
+     </view>
+    </view>
+  <view class="line"></view>
+   <view class="item">
+    <view>
+     <image src="../images/9.JPG" style="width:93px;height:73px;"></image> 
+    </view>
+    <view class="des">
+     <view class="title">凌桦榕<text class="Apply">已考勤</text>
+     </view>
+     <view class="hr"></view>
+     <view class="sno">201510733041</view>
+     </view>
+    </view>
+  <view class="line"></view>
+</view>
