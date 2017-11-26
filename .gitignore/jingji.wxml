@@ -1,0 +1,71 @@
+<!--logs.wxml-->
+<view class="content">
+   <view>
+   <image src="../images/zwb.jpg" style='width:100%;height:220px;'></image> 
+   </view>
+   <form bindsubmit="formSubmit"> 
+    <view class="item">
+      <view class="name">我的教室：</view> 
+      <view><button class="way" bindtap="selectWay">{{way}}</button></view>  
+   </view> 
+   <view class="item">
+      <view class="name">座位号：</view> 
+      <view class="val"><input name="seat" type="text"/></view>   
+   </view> 
+   <view class="item">
+      <view class="name">姓名：</view> 
+      <view class="val"><input name="name" type="text"/></view>   
+   </view> 
+    <view class="item">
+      <view class="name">学号：</view> 
+      <view class="val"><input name="sno" type="text"/></view>   
+   </view>
+   <button class="btn" form-type="submit">考勤成功</button> 
+   </form>
+</view>
+<view class="{{flag=='0'?'bg':'hideBg'}}">
+   <view class="radioBg">
+   <radio-group bindchange="radioChange">
+      <view class="radioItem">
+         <view class="radioName">请选择所在教室</view>
+         <view class="radioVal"><radio value="请选择所在教室" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">经济管理学院</view>
+         <view class="radioVal"><radio value="经济管理学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">外国语学院</view>
+         <view class="radioVal"><radio value="外国语学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">物流工程学院</view>
+         <view class="radioVal"><radio value="物流工程学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">文理学院</view>
+         <view class="radioVal"><radio value="文理学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">信息工程学院</view>
+         <view class="radioVal"><radio value="信息工程学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">商船学院</view>
+         <view class="radioVal"><radio value="商船学院" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">第一教学楼</view>
+         <view class="radioVal"><radio value="第一教学楼" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">第二教学楼</view>
+         <view class="radioVal"><radio value="第二教学楼" checked/></view>
+      </view>
+      <view class="radioItem">
+         <view class="radioName">第三教学楼</view>
+         <view class="radioVal"><radio value="第三教学楼" checked/></view>
+      </view>
+   </radio-group>
+  </view>
+</view>
